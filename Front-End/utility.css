@@ -1,0 +1,35 @@
+.red-border{
+  border: 1px solid red;
+}
+
+.blue-border{
+  border: 1px solid blue;
+}
+
+.bg-red{
+  background-color: red;
+}
+
+.flex{
+  display: flex;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.icon-41px{
+  width: 41px;
+}
+
+.color-invart {
+  filter: invert(1);
+}
+
+.txt-white {
+  color: white;
+}
