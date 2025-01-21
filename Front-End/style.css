@@ -1,96 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --background-base: #121212;
+    --background-eleveted-base: #1f1f1f;
 
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
-
-html,
+html {
+    font-size: 16px;
+    /* Set a base font size */
+}
 body {
-    height: 100%;
     width: 100%;
-    background-color: #000000;
-}
-
-.left {
-    width: 25vw;
-}
-
-.right {
-    width: 75vw;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: relative;
-    margin-top: 10px;
+    height: 100%;
+    background-color: black;
 }
 /*<=======================================
 
----------------search bar-----------------
+-----------------nav bar------------------
 
 ========================================>*/
-.icon {
-    position: absolute;
-    left: 20px;
-    align-content: start
+nav {
+    margin-top: 20px;
+    background-color: rgba(255, 40, 40, 0.726);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
 }
-
-#search-wrapper {
+.logo-img {
+    height: 2.5rem;
+    margin-left: 20px;
+}
+.search-rapper  {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.home-btn {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: none;
+    background-color: #1f1f1f;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-}
-
-.round-white {
-    padding: 10px;
-    height: fit-content;
-    border-radius: 50%;
-    background-color: #1f1f1f;
-}
-
-.search-bar {
-    background-color: #1f1f1f;
-    padding: 15px 20px;
-    border: none;
-    border-radius: 40px;
-    outline: white;
-    color: white;
-    font-size: 1.2rem;
-    width: 25vw;
-    height: 50px;
-}
-
-.border-icon {
-    height: 30px;
-}
-
-.search-bar::-moz-selection {
-    background: white;
-    color: black;
-}
-
-.search-bar::selection {
-    background: white;
-    color: black;
-}
-/*<=======================================
-
--------------button & others--------------
-
-==========================================>*/
-#install-app-btn {
-    background-color: #07070700;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 40px;
-    border: none;
     cursor: pointer;
-    font-weight: bold;
-    text-decoration: none;
+}
+.home-img {
+    height: 1.5rem;
+}
+.search {
+    margin-left: 2px;
+    background-color: var(--background-eleveted-base);
+    border-radius: 30px;
+    height: 3rem;
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.search-img {
+    height: 2rem;
+    opacity: 0.8;
+}
+.search input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+    margin-left: 10px;
+}
+.playlist-div {
+    height: 20px;
+    border-inline-start: 1px solid #7c7c7c;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.playlist-img{
+    height: 1.5rem;
+}
+.playlist-btn {
+    margin-left: 10px;
+    border: none;
+    background-color: #1f1f1f;
 }
