@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', open-sans;
 }
 html {
     font-size: 16px;
@@ -36,6 +36,8 @@ nav {
     height: 2.5rem;
     margin-left: 20px;
 }
+
+/* ----------------------search bar----------------------- */
 .search-rapper  {
     display: flex;
     align-items: center;
@@ -92,4 +94,43 @@ nav {
     margin-left: 10px;
     border: none;
     background-color: #1f1f1f;
+}
+/* --------------------------profile & button-------------------------- */
+.profile-div{
+    background-color: red;
+}
+.btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+    margin-right: 20px;
+    /* list-style-type: none; */
+}
+.ex-premium-btn {
+    background: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.ex-premium-btn:hover {
+    background-color: #f5f5f5;
+    transform: scale(1.04);
+}
+.download-icon {
+    height: 1.3rem;
+}
+.install-app-btn {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    background-color: #1f1f1f00;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.install-app-btn:hover {
+    transform: scale(1.04);
 }
